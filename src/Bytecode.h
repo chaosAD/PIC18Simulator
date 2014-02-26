@@ -16,7 +16,7 @@ typedef struct {
 } Instruction;
 
 typedef struct {
-	Instruction instruction;
+	Instruction *instruction;
 	int operand1;
 	int operand2;
 	int operand3;
